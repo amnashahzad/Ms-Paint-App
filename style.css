@@ -1,0 +1,68 @@
+body {
+  /* background: linear-gradient(90deg, #667eea, #764ba2); */
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+ h1 {
+  font-size: 24px;
+  margin: 20px 0;
+  background: linear-gradient(90deg, #ffffff, #ffffff);
+   -webkit-background-clip: text;  
+   -webkit-text-fill-color: transparent;
+ }  
+
+#toolbar {
+  margin-top: 10px;
+}
+
+#page-options {
+  margin-bottom: 10px;
+}
+
+#canvas {
+  border: 1px solid #000;
+}
+
+button,
+input[type="color"],
+input[type="number"],
+select {
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+button {
+  background-color: #4a47a3;
+  color: #fff;
+}
+
+input[type="color"] {
+  height: 30px;
+  width: 30px;
+  padding: 0;
+}
+
+input[type="number"] {
+  width: 50px;
+}
+
+select {
+  background-color: #fff;
+  color: #4a47a3;
+}
+
+h1 {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  margin: 20px 0;
+}

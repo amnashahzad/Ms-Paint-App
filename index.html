@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MS Paint App</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- <h1 style="color: black;">MS Paint App</h1> -->
+  <div id="container">
+    <h1>MS Paint App</h1>
+    <div id="toolbar">
+      <div id="page-options">
+        <label for="page-size">Page Size:</label>
+        <select id="page-size">
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select>
+      </div>
+      <canvas id="canvas"></canvas>
+      <div id="brush-options">
+        <label for="brush-size">Brush Size:</label>
+        <input type="number" id="brush-size" min="1" max="50" value="10">
+        <select id="brush-category">
+          <option value="marker">Marker</option>
+          <option value="other-brush">Other Brush</option>
+          <!-- Add more brush categories as needed -->
+        </select>
+      </div>
+      <button id="pencil">Pencil</button>
+      <button id="brush">Brush</button>
+      <button id="eraser">Eraser</button>
+      <input type="color" id="color-picker">
+      <button id="save">Save</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
